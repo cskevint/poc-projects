@@ -1,0 +1,22 @@
+{
+  "name": "poc-projects",
+  "version": "1.0.0",
+  "description": "A simple prototype for anything",
+  "main": "dist/prototype.js",
+  "scripts": {
+    "start": "npx ts-node prototype.ts",
+    "build": "tsc -p tsconfig.json",
+    "test": "ts-node prototype.ts --test",
+    "clean": "rm -rf dist",
+    "revert": "git checkout -- prototype.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  },
+  "dependencies": {
+  }
+}
