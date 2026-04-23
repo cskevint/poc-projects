@@ -2,6 +2,10 @@
 
 When writing code in this repository, follow these guidelines for creating or updating prototypes:
 
+## Output Files
+
+- **Generated Artifacts**: Any files created as the output of a script should be written to the `files/` directory.
+
 ## TypeScript Prototypes
 
 - **File**: Use `prototype.ts` for TypeScript-based command-line prototypes.
